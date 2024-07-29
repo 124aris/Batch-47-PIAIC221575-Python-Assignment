@@ -12,17 +12,17 @@
 # Drew is 6
 # Ethan is 7
 
-anton = 21
+anton: int = 21
 
-beth = anton + 6
+beth: int = anton + 6
 
-chen = beth + 20
+chen: int = beth + 20
 
-drew = chen + anton
+drew: int = chen + anton
 
-ethan = chen
+ethan: int = chen
 
-ages = {"Anton": anton, "Beth": beth, "Chen": chen, "Drew": drew, "Ethan": ethan}
+ages: dict[str, int] = {"Anton": anton, "Beth": beth, "Chen": chen, "Drew": drew, "Ethan": ethan}
 
 for name, age in ages.items():
     print(f"{name} is {age} years old.")

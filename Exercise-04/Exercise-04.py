@@ -9,9 +9,9 @@
 
 s: str = "the quick brown fox jumps over the lazy dog"
 
-index = s.find("fox")
+index: int = s.find("fox")
 
-count = s.count("the")
+count: int = s.count("the")
 
 print(f"index of 'fox' is {index}")
 

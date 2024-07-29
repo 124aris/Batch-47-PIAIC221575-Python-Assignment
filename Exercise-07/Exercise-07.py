@@ -11,11 +11,11 @@
 
 s: str = "   Python is fun!   "
 
-strip_s = s.strip()
+strip_s: str = s.strip()
 
-ljust_s = strip_s.ljust(20, '*')
+ljust_s: str = strip_s.ljust(20, '*')
 
-rjust_s = strip_s.rjust(20, '*')
+rjust_s: str = strip_s.rjust(20, '*')
 
 print(strip_s)
 

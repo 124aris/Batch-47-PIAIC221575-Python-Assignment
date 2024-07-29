@@ -7,11 +7,13 @@
 # ["apple", "banana", "cherry", "dates"]
 # apple banana cherry dates
 
+from typing import List
+
 s: str = "apple,banana,cherry,dates"
 
-list = s.split(",")
+list: List[str] = s.split(",")
 
-join_s = " ".join(list)
+join_s: str = " ".join(list)
 
 print(list)
 

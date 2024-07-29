@@ -7,6 +7,6 @@
 
 num: int = 45
 
-bin_num = bin(num)
+bin_num: str = bin(num)
 
 print(f"Binary representation: {bin_num}")
